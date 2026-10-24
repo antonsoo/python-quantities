@@ -9,6 +9,8 @@ Unreleased
 - Correct the pond force unit to 0.00980665 N (one gram-force); it was
   previously 1000 times too large (`#44 <https://github.com/python-quantities/python-quantities/issues/44>`_).
 
+- Convert quantity-valued `ediff1d` boundary differences to the input units.
+
 ------
 0.16.4
 ------
